@@ -95,7 +95,7 @@ def naive_order_finder(x: int, n: int) -> int | None:
     """
     if x < 2 or n <= x or math.gcd(x, n) > 1:
         raise ValueError(f'Invalid x={x} for modulus n={n}.')
-    r, y = 1, x
+    r, y = 1, x 
     while y != 1:
         y = (x * y) % n
         r += 1
