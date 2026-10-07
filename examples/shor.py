@@ -89,7 +89,7 @@ def naive_order_finder(x: int, n: int) -> int | None:
         Smallest positive integer r such that x**r == 1 mod n.
         Always succeeds (and hence never returns None).
 
-    Raises:
+    Raises:  
         ValueError: When x is 1 or not an element of the multiplicative
             group of integers modulo n.
     """
